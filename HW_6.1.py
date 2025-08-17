@@ -11,9 +11,11 @@ letters = string.ascii_letters
 first_letter = letters.find(letters_range[0])
 second_letter = letters.find(letters_range[-1])
 
-lst_letters = []
+print(letters[first_letter:second_letter + 1])
 
-for i in range(first_letter, second_letter + 1):
-    lst_letters.append(letters[i])
+# lst_letters = []
 
-print("".join(lst_letters))
+# for i in range(first_letter, second_letter + 1):
+#     lst_letters.append(letters[i])
+
+# print("".join(lst_letters))
